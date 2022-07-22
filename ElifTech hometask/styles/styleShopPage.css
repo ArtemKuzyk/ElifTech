@@ -1,0 +1,100 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  width: 100%;
+}
+
+body {
+  background-color: azure;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+main {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  width: 100%;
+}
+
+.navMenuPages {
+  display: flex;
+  flex-direction: row;
+  font-size: 1em;
+  height: 5%;
+  margin: 15px;
+  margin-left: 70px;
+}
+.navMenuPages a {
+  padding: 10px;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  height: 85%;
+  width: 100%;
+}
+
+.navMenuCategories {
+  align-items: center;
+  border: 1px solid black;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  margin: 15px;
+  width: 17%;
+}
+.navMenuCategories span {
+  text-align: center;
+  font-weight: bold;
+  margin-top: 15px;
+}
+.navMenuCategories a {
+  width: 70%;
+  height: auto;
+  margin: 10px;
+  border: 1px solid black;
+  border-radius: 5px;
+  text-align: center;
+  padding: 10px;
+}
+
+.goods {
+  border: 1px solid black;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  height: 100%;
+  margin: 15px;
+  width: 70%;
+  justify-content: space-between;
+  overflow-y: scroll;
+}
+
+.item {
+  width: 45%;
+  height: 40%;
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: bisque;
+  margin: 25px;
+}
+.item .imageContainer {
+  margin: 10%;
+  width: 80%;
+  height: 40%;
+  text-align: center;
+  text-justify: distribute;
+}
+.item p {
+  margin-left: 10%;
+}
+.item button {
+  float: right;
+  margin-right: 10%;
+  padding: 5px;
+}/*# sourceMappingURL=styleShopPage.css.map */
